@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LoginForm1.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="Black" Padding="24" CornerRadius="0">
+
+               
+         <Label Text="Let's chat E4!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+        <StackLayout VerticalOptions="CenterAndExpand" Padding="5">
+
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Entry Placeholder="Enter Username" x:Name="Email"/>
+            <Entry Placeholder="Enter Password" x:Name="Pass"/>
+            <Button BackgroundColor="Black"  Text="Login"  TextColor="White"></Button>
+
+             <Label Text="Forget Password? Login" TextColor="Blue"></Label>
+            </StackLayout>
+
+
+
+           
+
+        </StackLayout>
+
+        
+
+    </StackLayout>
+
+</ContentPage>
